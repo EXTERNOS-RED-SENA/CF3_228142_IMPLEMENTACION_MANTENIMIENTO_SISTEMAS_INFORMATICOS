@@ -5,7 +5,19 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Diseño de infraestructura
+    
+    Separador
+    #t_2_1.titulo-segundo.color-acento-botones.mt-5
+      h2 2.1 Subsistemas de cableado estructurado
+    
+    Separador
+    #t_2_2.titulo-segundo.color-acento-botones.mt-5
+      h2 2.2 Cuartos de telecomunicaciones
+    
+    Separador
+    #t_2_3.titulo-segundo.color-acento-botones.mt-5
+      h2 2.3 Distribución y rutas de cableado
 
 </template>
 

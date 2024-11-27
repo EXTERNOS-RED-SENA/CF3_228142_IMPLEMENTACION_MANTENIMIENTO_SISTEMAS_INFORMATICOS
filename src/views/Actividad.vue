@@ -7,11 +7,11 @@
         .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
           .tarjeta.h-100.d-flex.align-items-center.p-4
             figure
-              img(src="@/assets/template/Seleccion_Multiple.svg", alt="Texto que describa la imagen")
+              img(src="@/assets/template/Falso_Verdadero.svg", alt="Texto que describa la imagen")
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
-            h2 Nombre de la Actividad
-          p.mb-4 Objetivo de la actividad
+            h2 Prueba de conocimientos sobre cableado estructurado: diseño e implementación de redes.
+          p.mb-4 Evaluar el conocimiento adquirido sobre sobre cableado estructurado: diseño e implementación de redes. Esto se trabaja a partir de un conjunto de preguntas, con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
           .tarjeta.actividad.p-3
             .row.justify-content-around.align-items-center            
               .col-sm.mb-3.mb-sm-0

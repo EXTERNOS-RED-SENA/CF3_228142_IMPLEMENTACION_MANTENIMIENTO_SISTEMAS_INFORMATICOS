@@ -5,7 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Implementación de redes físicas
+    
+    Separador
+    #t_3_1.titulo-segundo.color-acento-botones.mt-5
+      h2 3.1 Diagramas y documentación técnica
+    
+    Separador
+    #t_3_2.titulo-segundo.color-acento-botones.mt-5
+      h2 3.2 Métodos de implementación
 
 </template>
 
