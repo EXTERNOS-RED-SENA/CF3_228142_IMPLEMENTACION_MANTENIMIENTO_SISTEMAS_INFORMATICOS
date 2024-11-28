@@ -248,8 +248,13 @@
 </template>
 
 <script>
+import TabsC from '../bootstrap/TabsC'
+import AcordionA from '../bootstrap/AcordionA'
+import SlyderA from '../bootstrap/SlyderA'
+import SlyderF from '../bootstrap/SlyderF'
 export default {
   name: 'Tema4',
+  components: { TabsC, AcordionA, SlyderA, SlyderF },
   data: () => ({
     // variables de vue
   }),

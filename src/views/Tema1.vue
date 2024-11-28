@@ -176,9 +176,9 @@
     .row.justify-content-center.mb-4   
       .col-lg-9.my-lg-0.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
-          div(titulo="#[i Switches] de capa 2")
+          div(titulo="<em>Switche</em> de capa 2")
             p Operan en la capa de enlace de datos del modelo OSI y son adecuados para redes pequeñas y medianas. Proporcionan conectividad básica y gestión de tráfico.
-          div(titulo="#[i Switches] de capa 3")
+          div(titulo="<em>Switches</em> de capa 3")
             p Operan en la capa de red del modelo OSI y son adecuados para redes grandes y complejas. Proporcionan funcionalidades avanzadas como enrutamiento, calidad de servicio (QoS) y seguridad.
       .col-lg-3.my-lg-0.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema1/img13.png' alt='')    
@@ -626,9 +626,13 @@
 </template>
 
 <script>
+import TabsC from '../bootstrap/TabsC'
+import AcordionA from '../bootstrap/AcordionA'
+import SlyderA from '../bootstrap/SlyderA'
+import SlyderF from '../bootstrap/SlyderF'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { TabsC, AcordionA, SlyderA, SlyderF },
   data: () => ({
     // variables de vue
   }),

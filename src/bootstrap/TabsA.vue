@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import componentSlotMixins from '../bootstrap/componentSlotMixins'
+import componentSlotMixins from './componentSlotMixins'
 export default {
   name: 'TabsA',
   mixins: [componentSlotMixins],

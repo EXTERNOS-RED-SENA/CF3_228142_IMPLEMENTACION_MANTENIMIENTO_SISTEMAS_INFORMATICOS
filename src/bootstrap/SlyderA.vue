@@ -46,7 +46,7 @@
 
 <script>
 import ScrollHorizontal from '../bootstrap/ScrollHorizontal'
-import componentSlotMixins from '../bootstrap/componentSlotMixins'
+import componentSlotMixins from './componentSlotMixins'
 export default {
   name: 'SlyderA',
   components: { ScrollHorizontal },

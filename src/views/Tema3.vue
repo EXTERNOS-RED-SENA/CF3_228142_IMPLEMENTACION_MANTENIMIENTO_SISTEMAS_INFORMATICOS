@@ -371,13 +371,16 @@
             p La verificación de configuración asegura que todos los dispositivos de la red estén configurados correctamente. Este proceso incluye la revisión de las configuraciones de #[i routers], #[i switches] y otros dispositivos de red para garantizar que cumplan con los estándares y las mejores prácticas. La verificación de configuración asegura que la red funcione de manera óptima.
       .col-lg-4
         img(src="@/assets/curso/temas/tema3/img26.svg", alt="alt")
-      
-
 </template>
 
 <script>
+import TabsC from '../bootstrap/TabsC'
+import AcordionA from '../bootstrap/AcordionA'
+import SlyderA from '../bootstrap/SlyderA'
+import SlyderF from '../bootstrap/SlyderF'
 export default {
   name: 'Tema3',
+  components: { TabsC, AcordionA, SlyderA, SlyderF },
   data: () => ({
     // variables de vue
   }),

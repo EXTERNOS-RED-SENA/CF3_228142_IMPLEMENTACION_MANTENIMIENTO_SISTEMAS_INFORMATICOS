@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import componentSlotMixins from '../bootstrap/componentSlotMixins'
-import slyderMixins from '../bootstrap/slyderMixins'
+import componentSlotMixins from './componentSlotMixins'
+import slyderMixins from './slyderMixins'
 import ScrollHorizontal from '../bootstrap/ScrollHorizontal'
 export default {
   name: 'SlyderF',
