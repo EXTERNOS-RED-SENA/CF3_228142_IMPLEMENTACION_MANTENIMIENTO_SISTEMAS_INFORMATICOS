@@ -14,11 +14,11 @@
         .cajon.color-primario.bg1.p-4.mb-4
           p A medida que avances en el módulo, comprenderás que la importancia del análisis y la planificación en el diseño de redes no puede ser subestimada. Estas fases permiten identificar los requerimientos específicos de la organización, seleccionar las topologías y arquitecturas adecuadas, y garantizar que la red sea escalable y eficiente. Una planificación adecuada asegura que la red cumpla con las necesidades actuales y futuras de la organización, optimizando el rendimiento y minimizando los costos. Los requerimientos y especificaciones técnicas, como la velocidad de transmisión, el tipo de cableado, los dispositivos de red y las medidas de seguridad, se necesitan para asegurar que la red cumpla con las necesidades de la organización.
         .row.justify-content-center.align-items-center
-          .col-lg-3
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0
             img.img-fluid.img-a(src='@/assets/curso/temas/intro/img2.svg')
           .col-lg-9
             p Este componente tiene como objetivo proporcionar una comprensión integral del diseño e implementación de redes de telecomunicaciones, con un enfoque particular en el cableado estructurado. A través del análisis de los requerimientos y especificaciones técnicas, las topologías y arquitecturas de red, y el dimensionamiento y la escalabilidad, se busca ofrecer una guía práctica para los profesionales del campo.
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img.img-fluid.img-a(src='@/assets/curso/temas/intro/img1.png')
     p
       b ¡Bienvenido a este viaje por cableado estructurado: diseño e implementación de redes!

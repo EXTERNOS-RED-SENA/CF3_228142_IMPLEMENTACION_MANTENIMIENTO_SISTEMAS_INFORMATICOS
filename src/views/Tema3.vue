@@ -8,7 +8,7 @@
       h1 Implementación de redes físicas
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
         img.img-fluid.img-a(src='@/assets/curso/temas/tema3/img1.svg')
       .col-lg-7
         p La implementación de redes físicas es un proceso complejo que involucra la planificación, diseño, instalación y configuración de componentes de #[i hardware] y #[i software] para crear una infraestructura de red funcional. Este proceso garantiza que los dispositivos de una organización puedan comunicarse de manera eficiente y segura.
@@ -36,7 +36,7 @@
       h4 Componentes de un diagrama físico
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema3/img4.svg' alt='AvatarTop')
@@ -45,7 +45,7 @@
               p
                 b #[i Routers] y #[i switches]: 
                 | estos dispositivos son representados mediante iconos específicos que indican su ubicación y conexiones.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema3/img5.svg' alt='AvatarTop')
@@ -54,7 +54,7 @@
               p
                 b Servidores: 
                 | los servidores son mostrados con iconos que indican su tipo y función, como servidores de archivos, servidores de correo electrónico, etc.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema3/img6.svg' alt='AvatarTop')
@@ -68,7 +68,7 @@
       h4 Utilidad de los diagramas físicos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema3/img7.svg", alt="alt")
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
@@ -95,23 +95,22 @@
     .titulo-segundo.titseg
       h4 Componentes de un diagrama lógico
     
-    
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/img9.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.w-100
             .p-4
               h5.text-center Direcciones IP
               p Las direcciones IP de los dispositivos son mostradas en el diagrama, lo que permite a los administradores de red ver rápidamente cómo están asignadas las direcciones IP.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.w-100
             .p-4
               h5.text-center Subredes
               p Las subredes son representadas mediante bloques que indican el rango de direcciones IP asignadas a cada subred.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.w-100
@@ -132,7 +131,7 @@
             p Durante la resolución de problemas, los diagramas lógicos ayudan a los administradores de red a identificar rápidamente los problemas de configuración y comunicación entre los dispositivos.
           .tarjeta.brad.p-4(titulo="Documentación")
             p Los diagramas lógicos son una parte importante de la documentación técnica de la red. Proporcionan una referencia visual que puede ser utilizada por los administradores de red para entender la estructura lógica de la red.
-      .col-lg-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
 
     .row.justify-content-center.align-items-center.mb-4
@@ -149,7 +148,7 @@
     p.mb-4 Los manuales de instalación son documentos que proporcionan instrucciones detalladas sobre cómo instalar y configurar los componentes de red. Estos manuales son base para garantizar que los dispositivos de red se instalen correctamente y funcionen de manera óptima.
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema3/img13.svg", alt="alt")
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
@@ -176,7 +175,7 @@
           h4 Utilidad de los manuales de instalación
       
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
+          .col-sm-6.col-lg-2.mb-4.mb-lg-0
             img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt")
           .col-lg-10
             p Los manuales de instalación facilitan el proceso de instalación al proporcionar instrucciones claras y detalladas. Esto reduce el riesgo de errores y asegura que los dispositivos de red se instalen correctamente.
@@ -195,7 +194,7 @@
     .titulo-segundo.titseg
       h4 Contenido de una guía de configuración
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema3/img16.png", alt="alt")
       .col-lg-9.bg10
         .px-lg-4.px-4
@@ -247,7 +246,7 @@
     .titulo-segundo.titseg
       h4 Utilidad de las guías de configuración
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta.bg4.p-4.h-100
           .row.justify-content-center.mb-5
             .col-3
@@ -256,7 +255,7 @@
           .text-center
             h5 Mejoran el rendimiento
             p Las guías de configuración ayudan a mejorar el rendimiento de la red al proporcionar instrucciones detalladas sobre cómo configurar los dispositivos de red para que funcionen de manera óptima.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta.bg4.p-4.h-100
           .row.justify-content-center.mb-4
             .col-4
@@ -265,7 +264,7 @@
           .text-center
             h5 Aumentan la seguridad
             p Al seguir las instrucciones de las guías de configuración, los administradores de red pueden implementar políticas de seguridad que protejan la red contra amenazas externas e internas.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta.bg4.p-4.h-100
           .row.justify-content-center.mb-5
             .col-3
@@ -338,7 +337,7 @@
   
 
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-4
         .tarjeta--verde.p-4.h-100
           .row.mb-3
             .col-2
@@ -346,7 +345,7 @@
                 img(src='@/assets/curso/temas/tema3/img24.svg', alt='Texto que describa la imagen')
           h5 Implementación completa
           p La implementación completa es un método que implica la instalación y configuración de toda la red de una sola vez. Este enfoque puede ser más rápido, pero también puede ser más riesgoso y costoso. La implementación completa es más adecuada para redes pequeñas o para proyectos con plazos ajustados.
-      .col-lg-5
+      .col-lg-5.mb-4
         .tarjeta.bg6.p-4.h-100
           .row.mb-3
             .col-2
@@ -369,7 +368,7 @@
             p Las pruebas de seguridad verifican que la red esté protegida contra amenazas externas e internas. Estas pruebas incluyen la evaluación de la configuración de #[i firewalls], la detección de intrusiones y la implementación de políticas de seguridad. Las pruebas de seguridad protegen la información sensible y garantizar la integridad de la red.
           div(titulo="Verificación de configuración")
             p La verificación de configuración asegura que todos los dispositivos de la red estén configurados correctamente. Este proceso incluye la revisión de las configuraciones de #[i routers], #[i switches] y otros dispositivos de red para garantizar que cumplan con los estándares y las mejores prácticas. La verificación de configuración asegura que la red funcione de manera óptima.
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema3/img26.svg", alt="alt")
 </template>
 

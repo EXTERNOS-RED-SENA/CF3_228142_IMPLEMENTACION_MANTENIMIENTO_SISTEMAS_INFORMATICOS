@@ -8,7 +8,7 @@
       h1 Diseño de infraestructura
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
         img.img-fluid.img-a(src='@/assets/curso/temas/tema2/img1.svg')
       .col-lg-7
         p El diseño de infraestructura en redes de telecomunicaciones es un proceso integral que abarca la planificación, implementación y mantenimiento de los componentes físicos y lógicos necesarios para soportar una red eficiente y escalable. Este diseño incluye la selección y configuración de equipos, la disposición de los cables y la organización de los espacios físicos donde se alojan los equipos de red.
@@ -162,27 +162,27 @@
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
           div(titulo="Cuarto de telecomunicaciones principal")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | este cuarto aloja los equipos de red principales, como los #[i switches] de núcleo y los #[i routers] de borde.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | #[i switches] de núcleo, #[i routers] de borde, servidores, paneles de parcheo, sistemas de alimentación ininterrumpida (UPS).
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
@@ -190,21 +190,21 @@
                   | proporciona la interconexión principal de la red, gestionando el tráfico de datos entre diferentes partes de la red y conectando la red con el mundo exterior.
           div(titulo="Cuarto de telecomunicaciones intermedio")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | este cuarto aloja los equipos de red intermedios, como los #[i switches] de distribución y los #[i routers] de acceso.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | #[i switches] de distribución, #[i routers] de acceso, paneles de parcheo, sistemas de alimentación ininterrumpida (UPS).
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
@@ -213,21 +213,21 @@
              
           div(titulo="Cuarto de telecomunicaciones de acceso")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | este cuarto aloja los equipos de red de acceso, como los #[i switches] de acceso y los puntos de acceso inalámbricos.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | #[i switches] de acceso, puntos de acceso inalámbricos, paneles de parcheo, sistemas de alimentación ininterrumpida (UPS).
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
@@ -244,7 +244,7 @@
 
     
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-4
             .col-3
@@ -252,7 +252,7 @@
                 img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen')
           h5 Control ambiental
           p Los cuartos de telecomunicaciones deben estar equipados con sistemas de control ambiental, como aire acondicionado y sistemas de ventilación, para mantener una temperatura y humedad adecuadas para los equipos de red.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta.bg4.p-4.h-100
           .row.justify-content-center.mb-4
             .col-4
@@ -260,7 +260,7 @@
                 img(src='@/assets/curso/temas/tema2/img11.svg', alt='Texto que describa la imagen')
           h5 Control ambiental
           p Los cuartos de telecomunicaciones deben estar equipados con sistemas de control ambiental, como aire acondicionado y sistemas de ventilación, para mantener una temperatura y humedad adecuadas para los equipos de red.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-4
             .col-3
@@ -280,21 +280,21 @@
           .tarjeta.brad.p-4(titulo="Distribución horizontal")
             h5 Distribución horizontal
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | la distribución horizontal incluye los cables que conectan los dispositivos de usuario final con los puntos de distribución en el cuarto de telecomunicaciones.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | cables de par trenzado no apantallado (UTP), cables de fibra óptica, conectores RJ-45, paneles de parcheo.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
@@ -303,21 +303,21 @@
           .tarjeta.brad.p-4(titulo="Distribución vertical")
             h5 Distribución vertical
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | la distribución vertical incluye los cables que conectan los cuartos de telecomunicaciones en diferentes pisos o edificios.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | cables de fibra óptica, cables de par trenzado apantallado (STP), conductos de cableado, paneles de parcheo.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
@@ -326,27 +326,27 @@
           .tarjeta.brad.p-4(titulo="Distribución de campus")
             h5 Distribución de campus
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
               .col-lg-11
                 p
                   b Descripción: 
                   | la distribución de campus incluye los cables que conectan los edificios en un campus o área geográfica amplia.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
               .col-lg-11
                 p
                   b Componentes: 
                   | cables de fibra óptica, cables de par trenzado apantallado (STP), conductos de cableado, paneles de parcheo.
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-1
+              .col-sm-2.col-lg-1.mb-4.mb-lg-0
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
               .col-lg-11
                 p 
                   b Funciones: 
                   | proporciona interconexión entre los edificios, permitiendo la transmisión de datos, voz y video a largas distancias.
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema2/img16.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10

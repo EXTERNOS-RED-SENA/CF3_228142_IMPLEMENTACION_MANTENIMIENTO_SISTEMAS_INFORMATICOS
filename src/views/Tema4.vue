@@ -8,7 +8,7 @@
       h1 Optimización y mejores prácticas
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-lg-2.col-sm-4.mb-4.mb-lg-0
         img.img-fluid.img-a(src='@/assets/curso/temas/tema4/img1.svg')
       .col-lg-7
         p La implementación de cableado estructurado es un proceso complejo que requiere una planificación cuidadosa y la adopción de mejores prácticas para asegurar una instalación eficiente y efectiva. La optimización del cableado estructurado no solo mejora el rendimiento de la red, sino que también facilita el mantenimiento y la expansión futura.
@@ -19,7 +19,7 @@
       h2 4.1 Estándares de calidad
     
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-4
         .tarjeta--verde.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12
@@ -28,7 +28,7 @@
           p 
             b TIA/EIA-568:
             |  Este estándar, desarrollado por la Telecommunications Industry Association (TIA) y la Electronic Industries Alliance (EIA), define las especificaciones para el cableado de telecomunicaciones en edificios comerciales. Incluye directrices sobre la instalación de cables, conectores y otros componentes de red.
-      .col-lg-5
+      .col-lg-5.mb-4
         .tarjeta--verde.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12
@@ -47,7 +47,7 @@
 
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img5.svg' alt='AvatarTop')
@@ -56,7 +56,7 @@
               p
                 b Interoperabilidad: 
                 | los estándares de calidad aseguran que los componentes de red de diferentes fabricantes sean compatibles entre sí, lo que facilita la integración y el mantenimiento de la red.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img6.svg' alt='AvatarTop')
@@ -65,7 +65,7 @@
               p
                 b Rendimiento: 
                 | los estándares de calidad garantizan que los componentes de red cumplan con las especificaciones de rendimiento, lo que asegura un funcionamiento óptimo de la red.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img7.svg' alt='AvatarTop')
@@ -88,7 +88,7 @@
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema4/img8.svg", alt="alt")
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
@@ -108,21 +108,21 @@
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img9.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg11.w-100
             .p-4
               h5.text-center Facilita el mantenimiento
               p La documentación detallada facilita el mantenimiento y la resolución de problemas de la red, ya que proporciona una referencia clara de la instalación.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
             .p-4
               h5.text-center Servidores
               p Los servidores son mostrados con iconos que indican su tipo y función, como servidores de archivos, servidores de correo electrónico, etc.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
@@ -153,7 +153,7 @@
             p En esta fase, se monitorean y controlan las actividades del proyecto para asegurar que se cumplan los objetivos y los plazos establecidos. Incluye la identificación de desviaciones, la implementación de medidas correctivas y la evaluación del progreso.
           .tarjeta.brad.p-4(titulo="Cierre")
             p En esta fase, se finaliza el proyecto y se realizan las actividades de cierre, como la documentación final, la entrega de los entregables y la evaluación del proyecto.
-      .col-lg-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema4/img12.png' alt='AvatarTop')
     
     .row.justify-content-center.align-items-center.mb-4
@@ -163,7 +163,7 @@
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema4/img13.png", alt="alt")
       .col-lg-9.bg10
         .px-lg-4.px-4
@@ -199,21 +199,21 @@
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
     
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img15.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg11.w-100
             .p-4
               h5.text-center Mejora la eficiencia
               p La gestión de proyectos mejora la eficiencia al proporcionar una estructura clara para la planificación, ejecución y control de las actividades del proyecto.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
             .p-4
               h5.text-center Reduce el riesgo
               p La gestión de proyectos reduce el riesgo al identificar y mitigar los problemas potenciales antes de que se conviertan en problemas mayores.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img17.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.bg1.w-100
@@ -229,18 +229,18 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8     
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-3
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0
             img(src="@/assets/curso/temas/tema4/img18.svg", alt="alt")
           .col-lg-9.bg1.p-4
             p El análisis y la planificación de redes son etapas propias del diseño de una infraestructura de cableado estructurado. Estas fases permiten identificar los requerimientos específicos, seleccionar las topologías y arquitecturas adecuadas, y garantizar que la red sea escalable y eficiente. Una planificación adecuada asegura que la red cumpla con las necesidades actuales y futuras de la organización, optimizando el rendimiento y minimizando los costos.
         p Los requerimientos y especificaciones técnicas son aspectos que aseguran que la red cumpla con las necesidades de la organización. Estos incluyen la velocidad de transmisión, el tipo de cableado, los dispositivos de red y las medidas de seguridad. La selección adecuada de estos elementos se necesita para soportar aplicaciones críticas y servicios de alta demanda, como videoconferencias, transferencias de archivos grandes y sistemas de gestión empresarial.
-      .col-lg-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema4/img19.png", alt="alt")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         p Las topologías y arquitecturas de red desempeñan un papel importante en el diseño e implementación de redes eficientes y efectivas. Las topologías como la estrella, el anillo, el bus y la malla, junto con las arquitecturas jerárquicas y planas, ofrecen diferentes niveles de escalabilidad, tolerancia a fallos y facilidad de gestión. La selección adecuada de estas topologías y arquitecturas permite adaptar la red a las necesidades cambiantes de la organización y asegura un rendimiento óptimo.
-      .col-lg-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/tema4/img20.svg", alt="alt")
       .col-lg-5
         p El dimensionamiento y la escalabilidad son aspectos propios del diseño y la planificación de redes. El dimensionamiento vertical y horizontal, junto con la escalabilidad elástica, permiten optimizar el rendimiento de la red asegurando que los recursos estén disponibles cuando y donde se necesiten. Además, la implementación de redundancia y la planificación de contingencias mejoran la disponibilidad de la red, garantizando que los servicios críticos se mantengan operativos incluso en caso de fallos.

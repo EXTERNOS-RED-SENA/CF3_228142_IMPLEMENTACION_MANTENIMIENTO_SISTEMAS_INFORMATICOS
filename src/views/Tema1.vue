@@ -7,7 +7,7 @@
         span 1
       h1 Análisis y planificación de redes
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
         img.img-fluid.img-a(src='@/assets/curso/temas/tema1/img1.svg')
       .col-lg-7
         p El análisis y la planificación de redes son etapas en el diseño de una infraestructura de cableado estructurado. Estas fases permiten identificar los requerimientos específicos, seleccionar las topologías y arquitecturas adecuadas, y garantizar que la red sea escalable y eficiente. Una planificación adecuada asegura que la red cumpla con las necesidades actuales y futuras de la organización, optimizando el rendimiento y minimizando los costos. 
@@ -28,10 +28,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p La velocidad de transmisión determina la capacidad de la red para manejar grandes volúmenes de datos. Esta característica es base para soportar aplicaciones críticas y servicios de alta demanda, como videoconferencias, transferencias de archivos grandes, aplicaciones en la nube y sistemas de gestión empresarial. La velocidad de transmisión se mide en megabits por segundo (Mbps) o gigabits por segundo (Gbps) y debe ser seleccionada en función de las necesidades específicas de la organización.
-      .col-lg-2
+      .col-sm-6.col-lg-2.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imagen decorativa')
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mrgbt
       .col-lg-12
         .titulovi.mb-4
           h5.order-2.mb-0.p-1 Factores para tener en cuenta
@@ -40,30 +40,33 @@
     
     .row.justify-content-center.mb-5
       .col-lg-4
-        .tarjeta-avatar
-          img.tarj1(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
-          .tarjeta.bg2.w-100
-            .text-black.p-4
-              p 
-                b Aplicaciones críticas: 
-                | identificar las aplicaciones que requieren alta velocidad de transmisión, como sistemas de videoconferencia, aplicaciones de colaboración en tiempo real y servicios de streaming.
+        .tarjeta.bg2.brad.p-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+              img.imgfig(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
+          p 
+            b Aplicaciones críticas: 
+            | identificar las aplicaciones que requieren alta velocidad de transmisión, como sistemas de videoconferencia, aplicaciones de colaboración en tiempo real y servicios de streaming.
+
       .col-lg-4
-        .tarjeta-avatar
-          img.tarj2(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
-          .tarjeta.bg2.w-100
-            .text-black.p-4
-              p 
-                b Número de usuarios: 
-                | evaluar el número de usuarios concurrentes y el tipo de tráfico que generan. Una red con muchos usuarios requerirá una mayor velocidad de transmisión para evitar cuellos de botella.
+        .tarjeta.bg2.brad.p-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-sm-6.col-lg-5.mb-4.mb-lg-0
+              img.imgfig(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
+          p 
+            b Número de usuarios: 
+            | evaluar el número de usuarios concurrentes y el tipo de tráfico que generan. Una red con muchos usuarios requerirá una mayor velocidad de transmisión para evitar cuellos de botella.
+
       .col-lg-4
-        .tarjeta-avatar
-          img.tarj3(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
-          .tarjeta.bg2.w-100
-            .text-black.p-4
-              p 
-                b Crecimiento futuro: 
-                | considerar el crecimiento futuro de la organización y planificar la velocidad de transmisión en consecuencia. Esto asegura que la red pueda escalar sin necesidad de costosas actualizaciones.
-    
+        .tarjeta.bg2.brad.p-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-sm-6.col-lg-9.mb-4.mb-lg-0
+              img.imgfig(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
+          p 
+            b Crecimiento futuro: 
+            | considerar el crecimiento futuro de la organización y planificar la velocidad de transmisión en consecuencia. Esto asegura que la red pueda escalar sin necesidad de costosas actualizaciones.
+        
+   
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .titulovi.mb-4
@@ -95,7 +98,7 @@
       h4 Cables de Cobre
 
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta--boton.color-acento-contenido.p-4.h-100
           .row.mb-3
             .col-3
@@ -104,7 +107,7 @@
           p
             b Cat5e:
             | ofrece una velocidad de transmisión de hasta 1 Gbps y es adecuado para distancias de hasta 100 metros. Es una opción económica para pequeñas y medianas empresas.
-      .col-lg-4
+      .col-lg-4.mb-4
         .tarjeta--boton.color-acento-contenido.p-4.h-100
           .row.mb-3
             .col-3
@@ -126,11 +129,11 @@
     .titulo-segundo.titseg
       h4 Fibra óptica
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4
         .tarjeta
           .tarjeta.bg4.w-100.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-sm-2.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/temas/tema1/img10.svg' alt='Imagen decorativa')
               .col-lg-8 
                 p 
@@ -140,7 +143,7 @@
         .tarjeta
           .tarjeta.bg4.w-100.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-sm-2.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/temas/tema1/img11.svg' alt='Imagen decorativa')
               .col-lg-8
                 p 
@@ -180,7 +183,7 @@
             p Operan en la capa de enlace de datos del modelo OSI y son adecuados para redes pequeñas y medianas. Proporcionan conectividad básica y gestión de tráfico.
           div(titulo="<em>Switches</em> de capa 3")
             p Operan en la capa de red del modelo OSI y son adecuados para redes grandes y complejas. Proporcionan funcionalidades avanzadas como enrutamiento, calidad de servicio (QoS) y seguridad.
-      .col-lg-3.my-lg-0.my-3
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema1/img13.png' alt='')    
 
 
@@ -189,21 +192,21 @@
       h4 #[i Routers]
     
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4
         .tarjeta
           .tarjeta.bg3.w-100.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-sm-4.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/temas/tema1/img14.svg' alt='Imagen decorativa')
               .col-lg-8 
                 p 
                   b #[i Routers] de bordes: 
                   | utilizados para conectar la red interna con redes externas, como Internet. Proporcionan funcionalidades de enrutamiento, seguridad y gestión de tráfico.
-      .col-lg-6
+      .col-lg-6.mb-4
         .tarjeta
           .tarjeta.bg3.w-100.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-sm-4.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/temas/tema1/img15.svg' alt='Imagen decorativa')
               .col-lg-8
                 p 
@@ -214,11 +217,11 @@
       h4 Puntos de acceso
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-sm-4.col-lg-3.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema1/img16.svg' alt='Imagen decorativa')
       .col-lg-8.bg6.p-4
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-1
+          .col-sm-2.col-lg-1.mb-4.mb-lg-0
             img(src='@/assets/curso/temas/tema1/img17.svg' alt='Imagen decorativa')
           .col-lg-11
             p
@@ -226,7 +229,7 @@
               | proporcionan conectividad inalámbrica a los dispositivos de la red. Deben ser seleccionados en función de la cobertura, la capacidad y las características de seguridad.
         
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-1
+          .col-sm-2.col-lg-1.mb-4.mb-lg-0
             img(src='@/assets/curso/temas/tema1/img18.svg' alt='Imagen decorativa')
           .col-lg-11
             p
@@ -585,7 +588,7 @@
         p El dimensionamiento y la escalabilidad permiten optimizar el rendimiento de la red asegurando que los recursos estén disponibles cuando y donde se necesiten. Esto incluye la distribución equitativa del tráfico, la priorización de aplicaciones críticas y la reducción de la latencia.
         .cajon.color-primario.p-4.mb-4
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-sm-2.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/temas/tema1/img34.svg' alt='AvatarTop')
             .col-lg-10
               p La siguiente figura proporciona una representación visual clara y organizada de cómo el dimensionamiento y la escalabilidad contribuyen a la optimización del rendimiento de la red, asegurando la disponibilidad de recursos, la distribución equitativa del tráfico, la priorización de aplicaciones críticas y la reducción de la latencia.
@@ -603,10 +606,11 @@
     .titulo-segundo.titseg
       h4 Mejora de la disponibilidad
     p.mb-4 El dimensionamiento y la escalabilidad mejoran la disponibilidad de la red asegurando que los recursos estén disponibles incluso en caso de fallos. Esto incluye la implementación de redundancia, la distribución de la carga de trabajo y la planificación de contingencias.
-    .row.justify-content-center.mb-5
+    
+    .row.justify-content-center
       .col-lg-5
-        .tarjeta--morada.color-primario.p-4.h-100
-          .row.mb-3
+        .tarjeta--morada.color-primario.p-4.h-100.mb-5
+          .row
             .col-2
               figure
                 img(src='@/assets/curso/temas/tema1/img37.svg', alt='Texto que describa la imagen')
@@ -614,7 +618,7 @@
           p El dimensionamiento y la escalabilidad permiten reducir los costos de la red mediante la optimización del uso de recursos. Esto incluye la selección de equipos adecuados, la planificación de capacidad y la implementación de soluciones escalables que pueden adaptarse a cambios en la demanda sin necesidad de inversiones adicionales.
       .col-lg-5
         .tarjeta--verde.color-primario.p-4.h-100
-          .row.mb-3
+          .row
             .col-2
               figure
                 img(src='@/assets/curso/temas/tema1/img38.svg', alt='Texto que describa la imagen')
