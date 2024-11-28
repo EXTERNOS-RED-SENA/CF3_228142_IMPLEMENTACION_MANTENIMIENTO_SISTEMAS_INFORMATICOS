@@ -258,7 +258,7 @@ export default {
     {
       termino: 'Dispositivos de red',
       significado:
-        'Componentes que aseguran la conectividad y el rendimiento de la red, como switches, routers y puntos de acceso.',
+        'Componentes que aseguran la conectividad y el rendimiento de la red, como <em>switches</em>, <em>routers</em> y puntos de acceso.',
     },
     {
       termino: 'Distancia',
@@ -281,9 +281,9 @@ export default {
         'Tipo de cable que utiliza luz para transmitir datos, ofreciendo una mayor capacidad de transmisión y resistencia a interferencias.',
     },
     {
-      termino: 'Firewall',
+      termino: '<em>Firewall</em>',
       significado:
-        'Dispositivo de hardware o software que protege la red contra amenazas externas.',
+        'Dispositivo de <em>hardware</em> o <em>software</em> que protege la red contra amenazas externas.',
     },
     {
       termino: 'Interferencias',
@@ -296,12 +296,12 @@ export default {
         'Implementación de componentes críticos duplicados para asegurar la continuidad del servicio en caso de fallos.',
     },
     {
-      termino: 'Router',
+      termino: '<em>Router</em>',
       significado:
         'Dispositivo de red que gestiona el tráfico entre diferentes segmentos de la red.',
     },
     {
-      termino: 'Switch',
+      termino: '<em>Switch</em>',
       significado:
         'Dispositivo de red que proporciona conectividad y gestión de tráfico en la red.',
     },
@@ -314,48 +314,50 @@ export default {
   referencias: [
     {
       referencia:
-        'Bates, R., Gregory, J., & Peters, G. (2015). Networking Essentials: A CompTIA Network+ N10-006 Textbook.',
+        'Bates, R., Gregory, J., & Peters, G. (2015). <em>Networking Essentials: A CompTIA Network+ N10-006 Textbook</em>.',
       link: '',
     },
     {
       referencia:
-        'Cisco Systems. (2020). Cisco Networking Academy: CCNA Routing and Switching.',
-      link: '',
-    },
-    {
-      referencia: 'Davis, J., & Lewis, T. (2016). Networking for Dummies.',
+        'Cisco Systems. (2020). <em>Cisco Networking Academy: CCNA Routing and Switching</em>.',
       link: '',
     },
     {
       referencia:
-        'ISO/IEC. (2017). ISO/IEC 11801: Information technology — Generic cabling for customer premises.',
+        'Davis, J., & Lewis, T. (2016). <em>Networking for Dummies</em>.',
       link: '',
     },
     {
       referencia:
-        'Kurose, J. F., & Ross, K. W. (2017). Computer Networking: A Top-Down Approach.',
+        'ISO/IEC. (2017). ISO/IEC 11801: <em>Information technology — Generic cabling for customer premises</em>.',
       link: '',
     },
     {
       referencia:
-        'Odom, W. (2017). Cisco CCNA Routing and Switching 200-125 Official Cert Guide Library.',
-      link: '',
-    },
-    {
-      referencia: 'Park, K., & Miller, J. (2016). Network+ Guide to Networks.',
+        'Kurose, J. F., & Ross, K. W. (2017). <em>Computer Networking: A Top-Down Approach</em>.',
       link: '',
     },
     {
       referencia:
-        'TIA/EIA. (2017). TIA/EIA-568: Commercial Building Telecommunications Cabling Standard.',
+        'Odom, W. (2017). <em>Cisco CCNA Routing and Switching 200-125 Official Cert Guide Library</em>.',
       link: '',
     },
     {
-      referencia: 'Tanenbaum, A. S. (2011). Computer Networks.',
+      referencia:
+        'Park, K., & Miller, J. (2016). <em>Network+ Guide to Networks</em>.',
       link: '',
     },
     {
-      referencia: 'White, R. (2015). How Computers Work.',
+      referencia:
+        'TIA/EIA. (2017). TIA/EIA-568: <em>Commercial Building Telecommunications Cabling Standard</em>.',
+      link: '',
+    },
+    {
+      referencia: 'Tanenbaum, A. S. (2011). <em>Computer Networks</em>.',
+      link: '',
+    },
+    {
+      referencia: 'White, R. (2015). <em>How Computers Work</em>.',
       link: '',
     },
   ],

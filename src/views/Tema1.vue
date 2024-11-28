@@ -168,17 +168,17 @@
           h5.order-2.mb-0.p-1 Dispositivos de red
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
-    p.mb-5 Los dispositivos de red son componentes que aseguran la conectividad y el rendimiento de la red. Estos incluyen switches, routers, puntos de acceso y otros equipos necesarios.
+    p.mb-5 Los dispositivos de red son componentes que aseguran la conectividad y el rendimiento de la red. Estos incluyen #[i switches], #[i routers], puntos de acceso y otros equipos necesarios.
 
     .titulo-segundo.titseg
-      h4 Switches
+      h4 #[i Switches]
 
     .row.justify-content-center.mb-4   
       .col-lg-9.my-lg-0.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta")
-          div(titulo="Switches de capa 2")
+          div(titulo="#[i Switches] de capa 2")
             p Operan en la capa de enlace de datos del modelo OSI y son adecuados para redes pequeñas y medianas. Proporcionan conectividad básica y gestión de tráfico.
-          div(titulo="Switches de capa 3")
+          div(titulo="#[i Switches] de capa 3")
             p Operan en la capa de red del modelo OSI y son adecuados para redes grandes y complejas. Proporcionan funcionalidades avanzadas como enrutamiento, calidad de servicio (QoS) y seguridad.
       .col-lg-3.my-lg-0.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema1/img13.png' alt='')    
@@ -186,7 +186,7 @@
 
 
     .titulo-segundo.titseg
-      h4 Routers
+      h4 #[i Routers]
     
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -197,7 +197,7 @@
                 img(src='@/assets/curso/temas/tema1/img14.svg' alt='Imagen decorativa')
               .col-lg-8 
                 p 
-                  b Routers de bordes: 
+                  b #[i Routers] de bordes: 
                   | utilizados para conectar la red interna con redes externas, como Internet. Proporcionan funcionalidades de enrutamiento, seguridad y gestión de tráfico.
       .col-lg-6
         .tarjeta
@@ -207,7 +207,7 @@
                 img(src='@/assets/curso/temas/tema1/img15.svg' alt='Imagen decorativa')
               .col-lg-8
                 p 
-                  b Routers de núcleo: 
+                  b #[i Routers] de núcleo: 
                   | utilizados en el centro de la red para gestionar el tráfico entre diferentes segmentos de la red. Proporcionan funcionalidades avanzadas como enrutamiento dinámico y calidad de servicio (QoS).
 
     .titulo-segundo.titseg
@@ -241,7 +241,7 @@
           h5.order-2.mb-0.p-1 Medidas de seguridad
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
-    p.mb-4 Las medidas de seguridad se utilizan para proteger la red contra accesos no autorizados y amenazas externas. Estas incluyen firewalls, sistemas de detección de intrusos (IDS) y autenticación de usuarios. La Tabla 1 profundiza las clases y características de cada una:
+    p.mb-4 Las medidas de seguridad se utilizan para proteger la red contra accesos no autorizados y amenazas externas. Estas incluyen #[i firewalls], sistemas de detección de intrusos (IDS) y autenticación de usuarios. La Tabla 1 profundiza las clases y características de cada una:
 
     .titulo-sexto.color-acento-contenido.offset-0
       h5 Tabla 1. 
@@ -257,14 +257,14 @@
             th Tipo 2
         tbody
           tr
-            td.bg7.fast-bold.h5 Firewalls
+            td.bg7.fast-bold.h5 #[i Firewalls]
             td 
               p 
-                b Firewalls de Hardware: 
+                b #[i Firewalls] de #[i Hardware]: 
                 | dispositivos físicos que se instalan en el borde de la red para protegerla contra amenazas externas. Proporcionan funcionalidades de filtrado de paquetes, inspección de estado y prevención de intrusos.
             td 
               p 
-                b Firewalls de Software: 
+                b #[i Firewalls] de #[i Software]: 
                 | aplicaciones que se instalan en los dispositivos de la red para protegerlos contra amenazas internas y externas. Proporcionan funcionalidades de filtrado de paquetes, inspección de estado y prevención de intrusos.
           tr
             td.bg7.fast-bold.h5 Sistemas de Detección de Intrusos (IDS)
@@ -283,7 +283,7 @@
             td
               p.text-left
                 b Autenticación Multifactor (MFA):
-                | requiere múltiples formas de autenticación, como contraseñas, tokens de hardware y biometría, para verificar la identidad de los usuarios.
+                | requiere múltiples formas de autenticación, como contraseñas, tokens de #[i hardware] y biometría, para verificar la identidad de los usuarios.
 
             td
               p
@@ -314,7 +314,7 @@
       h4 Características de las topologías de red
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.tarjeta--boton.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop')
         h5.text-center Disposición física
@@ -327,15 +327,15 @@
         p.text-center Describe cómo se transmite la información entre los dispositivos, independientemente de la disposición física.
 
       .tarjeta.tarjeta--boton.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-5
           .col-8
             img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
         h5.text-center Escalabilidad
         p.text-center Capacidad de la topología para adaptarse a cambios en la red, como la adición de nuevos dispositivos.
       
       .tarjeta.tarjeta--boton.p-4
-        .row.justify-content-center.mb-3
-          .col-8
+        .row.justify-content-center.mb-5
+          .col-9
             img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')
         h5.text-center Tolerancia a fallos
         p.text-center Capacidad de la topología para mantener la funcionalidad de la red en caso de fallos en los dispositivos o conexiones.
@@ -353,7 +353,7 @@
             ul.lista-ul
               li
                 i.fas.fa-life-ring
-                | #[b Descripción:] todos los dispositivos están conectados a un punto central, generalmente un hub o un switch.
+                | #[b Descripción:] todos los dispositivos están conectados a un punto central, generalmente un hub o un #[i switch].
               li
                 i.fas.fa-life-ring
                 | #[b Ventajas:] facilidad de instalación y gestión, aislamiento de problemas.
@@ -531,7 +531,7 @@
             h5 Evaluación de necesidades
             p La evaluación de necesidades implica identificar los requisitos actuales y futuros de la red, incluyendo el número de usuarios, dispositivos y aplicaciones. Esto se realiza mediante análisis de tráfico, encuestas a usuarios y evaluaciones de aplicaciones. La evaluación de necesidades ayuda a determinar los recursos necesarios y planificar la expansión de la red.
           .tarjeta.brad.p-4(titulo="Selección de equipos")
-            p La selección de equipos implica elegir los dispositivos de red adecuados, como switches, routers y puntos de acceso, basándose en las necesidades evaluadas. La selección debe considerar la capacidad de puerto, el rendimiento, las características de seguridad y la compatibilidad con otros dispositivos de la red. La correcta selección de equipos asegura que la red pueda soportar las demandas actuales y futuras.
+            p La selección de equipos implica elegir los dispositivos de red adecuados, como #[i switches], #[i routers] y puntos de acceso, basándose en las necesidades evaluadas. La selección debe considerar la capacidad de puerto, el rendimiento, las características de seguridad y la compatibilidad con otros dispositivos de la red. La correcta selección de equipos asegura que la red pueda soportar las demandas actuales y futuras.
           .tarjeta.brad.p-4(titulo="Diseño de la topología")
             p El diseño de la topología implica determinar la topología de red más adecuada para satisfacer los requisitos de la red. La topología debe ser flexible y escalable, permitiendo la fácil adición de nuevos dispositivos y servicios. El diseño de la topología debe considerar la facilidad de gestión, la tolerancia a fallos y la capacidad de expansión.
           .tarjeta.brad.p-4(titulo="Planificación de capacidad")
@@ -543,7 +543,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .titulovi.mb-4
-          h5.order-2.mb-0.p-1 Clases de Dimensionamiento y Escalabilidad
+          h5.order-2.mb-0.p-1 Clases de dimensionamiento y escalabilidad
           .imgicon.order-1
             img(src='@/assets/curso/temas/tema1/imgicono.png', alt='Imagen decorativa')
 
@@ -553,14 +553,14 @@
           .col-2
             img(src='@/assets/curso/temas/tema1/img31.svg' alt='AvatarTop')
         h5 Dimensionamiento vertical
-        p El dimensionamiento vertical implica añadir más recursos a un dispositivo existente para mejorar su capacidad. Esto puede incluir la adición de más memoria, procesadores o puertos a un switch o router. El dimensionamiento vertical es útil cuando se necesita mejorar el rendimiento de un dispositivo específico sin cambiar la infraestructura de la red.
+        p El dimensionamiento vertical implica añadir más recursos a un dispositivo existente para mejorar su capacidad. Esto puede incluir la adición de más memoria, procesadores o puertos a un #[i switch] o #[i router]. El dimensionamiento vertical es útil cuando se necesita mejorar el rendimiento de un dispositivo específico sin cambiar la infraestructura de la red.
 
       .tarjeta.tarjeta--tres.p-4
         .row.mb-3
           .col-2
             img(src='@/assets/curso/temas/tema1/img32.svg' alt='AvatarTop')
         h5 Dimensionamiento horizontal
-        p El dimensionamiento horizontal implica añadir más dispositivos a la red para aumentar su capacidad. Esto puede incluir la adición de más switches, routers o servidores. El dimensionamiento horizontal es útil cuando se necesita aumentar la capacidad de la red en general y distribuir la carga de trabajo entre múltiples dispositivos.
+        p El dimensionamiento horizontal implica añadir más dispositivos a la red para aumentar su capacidad. Esto puede incluir la adición de más #[i switches], #[i routers] o servidores. El dimensionamiento horizontal es útil cuando se necesita aumentar la capacidad de la red en general y distribuir la carga de trabajo entre múltiples dispositivos.
 
       .tarjeta.tarjeta--tres.p-4
         .row.mb-3
@@ -596,7 +596,7 @@
     .titulo-sexto.color-acento-contenido.offset-1
       h5 Figura 1. 
       span Optimización del rendimiento de la red
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5 
       .col-lg-6
         img(src='@/assets/curso/temas/tema1/img36.svg' alt='La Figura 1 se denomina «Optimización del rendimiento de la red» y enseña todos los factores que son impactados por el dimensionamiento y la escalabilidad.')
         figcaption.mt-2 Fuente: OIT, 2024.

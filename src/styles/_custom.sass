@@ -160,6 +160,19 @@
     padding-left: 2rem
     padding-right: 2rem
     margin-top: 2rem
+
+.bg10
+  background: url("../assets/curso/temas/tema3/imgfondo.png")
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover
+    padding-left: 2rem
+    padding-right: 2rem
+    margin-top: 2rem
+.bg11
+  background-color: #C3AAE2
 .bgw
   background-color: white  
   border-radius: 10px
@@ -179,6 +192,14 @@
   background-color: #E2F4F9
 .bg7
   background-color: #EBF6EA
+
+.bg9
+  background-color: #E0D4F0
+
+.tarjeta--tres
+  background-color: #C6E9F3 !important
+.tarjeta--azul
+  color:black !important
 .tabla-a.color-acento-contenido thead
   border-color: #692CB7
   background-color: #EFE8F7
@@ -270,3 +291,35 @@
 .tarjeta--verde
   background-color: #D7EED6
   border-radius: 10px
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(105, 44, 183, 1) 
+    color:white !important
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+.tarjeta-avatar > img
+  width: 110px !important
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+    left: -77px
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+    right: -75px
